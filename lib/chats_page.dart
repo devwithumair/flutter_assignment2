@@ -1,39 +1,3 @@
-// import 'package:flutter/material.dart';
-// import 'chat_empty.dart'; // Import the ChatEmpty screen
-
-// class ChatsPage extends StatelessWidget {
-//   const ChatsPage({super.key});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       body: SingleChildScrollView(
-//         child: Column(
-//           children: List.generate(20, (index) {
-//             return ListTile(
-//               leading: const CircleAvatar(
-//                 backgroundColor: Colors.teal,
-//               ),
-//               title: Text(
-//                 'Chat $index',
-//               ),
-//               subtitle: Text('Last message in chat $index'),
-//               trailing: const Text('12:30 PM'),
-//               onTap: () {
-//                 // Navigate to ChatEmpty screen when chat is tapped
-//                 Navigator.push(
-//                   context,
-//                   MaterialPageRoute(builder: (context) => const ChatEmpty()),
-//                 );
-//               },
-//             );
-//           }),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 import 'package:flutter/material.dart';
 import 'package:secondassignment/chat_empty.dart';
 

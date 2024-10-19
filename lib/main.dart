@@ -13,10 +13,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // routes: {
-      //   '/chat_empty': (context) =>
-      //       ChatEmpty(), // Assuming you have ChatEmpty screen
-      // },
       title: 'WhatsApp UI',
       theme: ThemeData(
         primarySwatch: Colors.teal,
